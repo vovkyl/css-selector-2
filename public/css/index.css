@@ -1,1 +1,67 @@
+.lesson-four-task-one .btn:hover{
+    color: red;
+    background: yellow;
+}
+/* .lesson-four-task-two > a:hover,h1:hover {
+    background: green;
+} */
+/* #lesson-four-task-three, a:visited {
+    color: yellow;
+  } */
+.lesson-four-task-five>.btn:active {
+    background: blue;
+}
+.lesson-four-task-six>.btn:focus {
+    background: orange;
+    color:orange;
 
+}
+.lesson-four-task-seven>#target:target {
+ color:white;
+ background: green;
+}
+input[type="checkbox"]:checked ~ div{
+    color:white;
+    background: blue;
+}
+.lesson-four-task-nine>p:lang(uk),p:last-of-type {
+    color:blue;
+}
+input[class='form-control']:enabled {
+    color:red;
+    background-color: yellow;
+}
+input:disabled {
+ background-color: yellow;
+}
+input[type="password"]:read-write {
+    background-color: yellow;
+}
+input:read-only {
+    background-color: yellow;
+}
+input[pattern='[A-Za-z]{3}']:valid {
+    background-color: green;
+}
+input[pattern='[A-Za-z]{3}']:invalid {
+    background-color: red;
+}
+textarea:optional {
+    background-color: red;
+}
+input:out-of-range {
+    color:red;
+}
+/* .lesson-four-task-seventeen > input:in-range {
+    color:red;
+} */
+input[type='text']:placeholder-shown {
+    background-color: red;
+}
+.btn-group > button:focus-within {
+    color:white;
+background-color: yellow;
+}
+/* .card > input[type='text'],input[type='email']:invalid {
+    background: red;
+} */
