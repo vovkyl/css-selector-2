@@ -2,12 +2,15 @@
     color: red;
     background: yellow;
 }
-/* .lesson-four-task-two > a:hover,h1:hover {
+a:hover+h1 {
     background: green;
-} */
-/* #lesson-four-task-three, a:visited {
+}
+a:visited {
     color: yellow;
-  } */
+  }
+  #sidebar:link {
+    color: red;
+  }
 .lesson-four-task-five>.btn:active {
     background: blue;
 }
@@ -52,9 +55,9 @@ textarea:optional {
 input:out-of-range {
     color:red;
 }
-/* .lesson-four-task-seventeen > input:in-range {
+div[class='lesson-four-task-seventeen '] input:in-range {
     color:red;
-} */
+}
 input[type='text']:placeholder-shown {
     background-color: red;
 }
@@ -62,6 +65,7 @@ input[type='text']:placeholder-shown {
     color:white;
 background-color: yellow;
 }
-/* .card > input[type='text'],input[type='email']:invalid {
+
+input[type='email']:invalid {
     background: red;
-} */
+}
