@@ -8,7 +8,7 @@ a:hover+h1 {
 a:visited {
     color: yellow;
   }
-  #sidebar:link {
+.link:link {
     color: red;
   }
 .lesson-four-task-five>.btn:active {
@@ -55,7 +55,7 @@ textarea:optional {
 input:out-of-range {
     color:red;
 }
-div[class='lesson-four-task-seventeen '] input:in-range {
+div[class='lesson-four-task-seventeen ']input:in-range {
     color:red;
 }
 input[type='text']:placeholder-shown {
@@ -65,7 +65,9 @@ input[type='text']:placeholder-shown {
     color:white;
 background-color: yellow;
 }
-
-input[type='email']:invalid {
+div [class='lesson-four-task-twenty'] input[type='text']:valid {
+    background: red;
+}
+div [class='lesson-four-task-twenty'] input[type='email']:invalid {
     background: red;
 }
