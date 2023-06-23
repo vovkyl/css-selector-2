@@ -52,10 +52,10 @@ input[pattern='[A-Za-z]{3}']:invalid {
 textarea:optional {
     background-color: red;
 }
-input:out-of-range {
+.lesson-four-task-sixteen input:out-of-range {
     color:red;
 }
-div[class='lesson-four-task-seventeen ']input:in-range {
+.lesson-four-task-seventeen input:in-range {
     color:red;
 }
 input[type='text']:placeholder-shown {
